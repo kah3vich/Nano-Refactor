@@ -1,10 +1,10 @@
 <h1 align="center">
-   <a href="https://marketplace.visualstudio.com/items?itemName=kah3vich.refactor">
+   <a href="https://marketplace.visualstudio.com/items?itemName=kah3vich.nano-refactor">
         <br />
-        <img src="https://raw.githubusercontent.com/kah3vich/Refactor/master/assets/logo.png" alt="logo" width="256">
+        <img src="https://raw.githubusercontent.com/kah3vich/Nano-Refactor/master/assets/logo.png" alt="logo" width="256">
         <br />
         <br />
-        Refactor (Beta)
+        Nano Refactor (Beta)
         <br />
         <br />
     </a>
@@ -13,17 +13,17 @@
 <br />
 
 <p align="center">
-    <a href="https://marketplace.visualstudio.com/items?itemName=kah3vich.refactor">
-        <img src="https://vsmarketplacebadges.dev/version-short/kah3vich.refactor.svg?style=for-the-badge&colorA=252526&colorB=43A047&label=VERSION" alt="Version">
+    <a href="https://marketplace.visualstudio.com/items?itemName=kah3vich.nano-refactor">
+        <img src="https://vsmarketplacebadges.dev/version-short/kah3vich.nano-refactor.svg?style=for-the-badge&colorA=252526&colorB=43A047&label=VERSION" alt="Version">
     </a>&nbsp;
-    <a href="https://marketplace.visualstudio.com/items?itemName=kah3vich.refactor">
-        <img src="https://vsmarketplacebadges.dev/rating-short/kah3vich.refactor.svg?style=for-the-badge&colorA=252526&colorB=43A047&label=Rating" alt="Rating">
+    <a href="https://marketplace.visualstudio.com/items?itemName=kah3vich.nano-refactor">
+        <img src="https://vsmarketplacebadges.dev/rating-short/kah3vich.nano-refactor.svg?style=for-the-badge&colorA=252526&colorB=43A047&label=Rating" alt="Rating">
     </a>&nbsp;
-    <a href="https://marketplace.visualstudio.com/items?itemName=kah3vich.refactor">
-        <img src="https://vsmarketplacebadges.dev/installs-short/kah3vich.refactor.svg?style=for-the-badge&colorA=252526&colorB=43A047&label=Installs" alt="Installs">
+    <a href="https://marketplace.visualstudio.com/items?itemName=kah3vich.nano-refactor">
+        <img src="https://vsmarketplacebadges.dev/installs-short/kah3vich.nano-refactor.svg?style=for-the-badge&colorA=252526&colorB=43A047&label=Installs" alt="Installs">
     </a>&nbsp;
-    <a href="https://marketplace.visualstudio.com/items?itemName=kah3vich.refactor">
-        <img src="https://vsmarketplacebadges.dev/downloads-short/kah3vich.refactor.svg?style=for-the-badge&colorA=252526&colorB=43A047&label=Downloads" alt="Downloads">
+    <a href="https://marketplace.visualstudio.com/items?itemName=kah3vich.nano-refactor">
+        <img src="https://vsmarketplacebadges.dev/downloads-short/kah3vich.nano-refactor.svg?style=for-the-badge&colorA=252526&colorB=43A047&label=Downloads" alt="Downloads">
     </a>
 </p>
 
