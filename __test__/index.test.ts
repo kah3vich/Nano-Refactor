@@ -10,8 +10,6 @@ import { consoleLog } from '../src/utils/other';
 
 describe('Utils - Other', () => {
 	test('Function - consoleLog', () => {
-		expect(consoleLog('Refactor', 'log')).toBe('✅ Refactor');
+		expect(consoleLog('Nano Refactor', 'log')).toBe('✅ Nano Refactor');
 	});
 });
-
-

@@ -8,21 +8,24 @@
 
 <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/gif/line.gif" height="20" width="100%" alt="https://i.imgur.com/dBaSKWF.gif">
 
-### **CHANGELOG KEY**: 
+### **CHANGELOG KEY**:
 
 <br />
 
 ```bash
-📦 FEAT: 
+📦 FEAT:
 ```
+
 ```bash
-🐛 FIX: 
+🐛 FIX:
 ```
+
 ```bash
-📖 DOC: 
+📖 DOC:
 ```
+
 ```bash
-🤖 TEST: 
+🤖 TEST:
 ```
 
 <br />
@@ -31,11 +34,11 @@
 
 <br />
 
-### RELEASE: 0.0.1 - March 9, 2023
+### RELEASE: v0.0.1-v0.0.2 - March 8, 2023
 
 <br />
 
->  ### 📦 FEAT: Init extension
+> ### 📦 FEAT: Init extension
 
 <br />
 

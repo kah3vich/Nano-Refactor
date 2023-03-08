@@ -1,13 +1,13 @@
 {
-	"name": "refactor",
+	"name": "nano-refactor",
 	"publisher": "kah3vich",
-	"displayName": "Refactor (Beta)",
+	"displayName": "Nano Refactor (Beta)",
 	"description": "An extension that lets you tell you where to refactor your code.",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/kah3vich/Refactor"
+		"url": "https://github.com/kah3vich/Nano-Refactor"
 	},
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.60.0"
 	},
@@ -32,24 +32,24 @@
 	"browser": "./out/src/extension.js",
 	"contributes": {
 		"configuration": {
-			"title": "✅ Refactor",
+			"title": "✅ Nano Refactor",
 			"properties": {
-				"refactor.config": {
+				"nano-refactor.config": {
 					"type": "array",
-					"description": "✅ Config params - Refactor",
+					"description": "✅ Config params - Nano Refactor",
 					"default": []
 				}
 			}
 		},
 		"commands": [
 			{
-				"command": "refactor",
-				"title": "Refactor"
+				"command": "nano-refactor",
+				"title": "Nano Refactor"
 			}
 		],
 		"keybindings": [
 			{
-				"command": "refactor",
+				"command": "nano-refactor",
 				"key": "ctrl+alt+r",
 				"when": "editorTextFocus",
 				"mac": "command+option+r"
@@ -57,7 +57,7 @@
 		]
 	},
 	"activationEvents": [
-		"onCommand:refactor"
+		"onCommand:nano-refactor"
 	],
 	"icon": "assets/logo.png",
 	"license": "MIT",
@@ -67,15 +67,16 @@
 		"email": "holdesher@ro.ru"
 	},
 	"bugs": {
-		"url": "https://github.com/kah3vich/Refactor/issues",
+		"url": "https://github.com/kah3vich/Nano-Refactor/issues",
 		"email": "holdesher@ro.ru"
 	},
 	"keywords": [
 		"kah3vich",
 		"holdesher",
-		"refactor"
+		"refactor",
+		"nano"
 	],
-	"homepage": "https://github.com/kah3vich/Refactor/readme.md",
+	"homepage": "https://github.com/kah3vich/Nano-Refactor/readme.md",
 	"scripts": {
 		"build": "rm -rf out/ & rm -rf *.vsix & vsce package",
 		"vscode:prepublish": "tsc -p ./",
