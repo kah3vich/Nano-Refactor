@@ -1,0 +1,110 @@
+{
+	"name": "refactor",
+	"publisher": "kah3vich",
+	"displayName": "Refactor (Beta)",
+	"description": "An extension that lets you tell you where to refactor your code.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kah3vich/Refactor"
+	},
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"extensionPack": [
+		"kah3vich.nanosnippets",
+		"kah3vich.import-at-top",
+		"kah3vich.holdesher"
+	],
+	"categories": [
+		"Extension Packs",
+		"Other",
+		"Formatters",
+		"Linters",
+		"Debuggers"
+	],
+	"preview": false,
+	"galleryBanner": {
+		"color": "#ffffff",
+		"theme": "light"
+	},
+	"main": "./out/src/extension.js",
+	"browser": "./out/src/extension.js",
+	"contributes": {
+		"configuration": {
+			"title": "✅ Refactor",
+			"properties": {
+				"refactor.config": {
+					"type": "array",
+					"description": "✅ Config params - Refactor",
+					"default": []
+				}
+			}
+		},
+		"commands": [
+			{
+				"command": "refactor",
+				"title": "Refactor"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "refactor",
+				"key": "ctrl+alt+r",
+				"when": "editorTextFocus",
+				"mac": "command+option+r"
+			}
+		]
+	},
+	"activationEvents": [
+		"onCommand:refactor"
+	],
+	"icon": "assets/logo.png",
+	"license": "MIT",
+	"author": {
+		"name": "kah3vich",
+		"url": "https://github.com/kah3vich",
+		"email": "holdesher@ro.ru"
+	},
+	"bugs": {
+		"url": "https://github.com/kah3vich/Refactor/issues",
+		"email": "holdesher@ro.ru"
+	},
+	"keywords": [
+		"kah3vich",
+		"holdesher",
+		"refactor"
+	],
+	"homepage": "https://github.com/kah3vich/Refactor/readme.md",
+	"scripts": {
+		"build": "rm -rf out/ & rm -rf *.vsix & vsce package",
+		"vscode:prepublish": "tsc -p ./",
+		"watcher": "tsc -watch -p ./",
+		"test": "rm -rf out/ & clear & jest --config ./jest.config.js",
+		"prepare": "husky install"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.3",
+		"@types/jest": "^29.4.0",
+		"@types/mocha": "^8.2.2",
+		"@types/node": "^6.0.40",
+		"@types/vscode": "^1.60.0",
+		"@typescript-eslint/eslint-plugin": "^4.26.0",
+		"@typescript-eslint/parser": "^4.26.0",
+		"@vscode/test-electron": "^1.6.1",
+		"glob": "^7.1.7",
+		"husky": "^8.0.3",
+		"jest": "^29.4.3",
+		"mocha": "^8.4.0",
+		"ts-jest": "^29.0.5",
+		"ts-node": "^10.9.1",
+		"typescript": "^4.3.2",
+		"vscode-test": "^1.5.2"
+	},
+	"dependencies": {
+		"@types/eslint": "^8.21.0",
+		"@types/prettier": "^2.7.2",
+		"eslint": "^7.32.0",
+		"prettier": "^2.8.4"
+	}
+}
