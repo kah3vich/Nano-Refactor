@@ -34,7 +34,7 @@
 
 <br />
 
-### RELEASE: v0.0.1-v0.0.2 - March 8, 2023
+### RELEASE: v0.0.1 - March 8, 2023
 
 <br />
 
