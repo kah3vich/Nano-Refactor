@@ -4,7 +4,7 @@
         <img src="https://raw.githubusercontent.com/kah3vich/Nano-Refactor/main/assets/logo.png" alt="logo" width="256">
         <br />
         <br />
-        <img src="https://svg-readme.vercel.app/readme?type=title&content=Nano Refactor (Beta)" alt="title" width="100%" height="40">
+        <img src="https://svg-readme.vercel.app/test/readme?type=title&content=123" alt="title" width="100%" height="40">
         <br />
         <br />
     </a>
