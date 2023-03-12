@@ -7,12 +7,12 @@
 		"type": "git",
 		"url": "https://github.com/kah3vich/Nano-Refactor"
 	},
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"engines": {
 		"vscode": "^1.60.0"
 	},
 	"extensionPack": [
-		"kah3vich.nanosnippets",
+		"kah3vich.nano-snippets",
 		"kah3vich.import-at-top",
 		"kah3vich.holdesher"
 	],
@@ -25,8 +25,8 @@
 	],
 	"preview": false,
 	"galleryBanner": {
-		"color": "#ffffff",
-		"theme": "light"
+		"color": "#20232A",
+		"theme": "dark"
 	},
 	"main": "./out/src/extension.js",
 	"browser": "./out/src/extension.js",
